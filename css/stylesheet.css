@@ -1,0 +1,68 @@
+/* Resetting default margin and padding for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Adjust as needed */
+    color: #333; /* Dark gray text color */
+    background-color: #fff; /* White background */
+}
+
+/* Header styles */
+header {
+    background-color: #ffc5ee; /* Light pink background */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 20px; /* Add some spacing between header and navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Add space between navigation items */
+}
+
+nav ul li a {
+    color: #333; /* Dark gray text color */
+    text-decoration: none;
+    padding: 10px 15px; /* Add padding to make navigation items clickable */
+    border-radius: 5px; /* Add rounded corners to navigation items */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #333; /* Dark gray background on hover */
+    color: #fff; /* White text color on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+.artwork {
+	text-align:left;
+}
+
+.forum {
+	text-align:right;
+}
+
+/* Footer changes */
+footer {
+	padding: 20px;
+	text-align:center;
+}
