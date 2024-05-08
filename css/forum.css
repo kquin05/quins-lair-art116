@@ -61,6 +61,38 @@ main {
 	text-align: center;
 }
 
+/* Form styles */
+form {
+    max-width: 500px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure consistent sizing */
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #ffc5ee; /* Light pink background */
+    color: #333; /* Dark gray text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #ff9dbb; /* Lighter pink background on hover */
+}
+
 /* Footer changes */
 footer {
 	padding: 20px;
