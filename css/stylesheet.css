@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Body styles */
 body {
     font-family: Arial, sans-serif;
@@ -15,7 +16,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #ffc5ee; /* Light pink background */
+    background-color: #ff6363; /* Light pink background */
     padding: 20px;
     text-align: center;
 }
@@ -54,11 +55,11 @@ main {
 }
 
 .artwork {
-	text-align:left;
+	text-align:center;
 }
 
 .forum {
-	text-align:right;
+	text-align:center;
 }
 
 /* Footer changes */
